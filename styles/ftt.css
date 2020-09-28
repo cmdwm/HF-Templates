@@ -1,0 +1,73 @@
+/* THIS CODE WAS MADE BY HOTFRONT WITH HELP FROM W3SCHOOLS */
+.header {
+  background-image: url("https://temps.hotfronthost.com/imgs/liquid.jpg");
+   background-size: cover;
+   padding: 20px;
+   text-align: center;
+   color: white;
+   background-color: black;
+}
+body {
+margin: 0;
+font-family: Arial;
+}
+.container {margin: 20px;}
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: inherit;
+   color: inherit;
+   text-align: center;
+  border: 1px solid black;
+  padding: 5px;
+}
+a {
+color: inherit;
+}
+button {
+  border-radius: 6px;
+  border: none;
+  padding: 5px;
+  margin: 10px;
+  font-size: 21px;
+  cursor: pointer;
+}
+
+button:hover {background: red;}
